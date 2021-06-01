@@ -1,0 +1,24 @@
+Bonus Features
+
+1.) Textual record of player's plays
+• For each player, there is a textual record of the plays they have
+made located just below the number of discards. It gets updated after
+every turn.
+
+2.) Visual cues to legal card
+• The legal cards in a player's hand are highlighted with a green background color.
+
+3.) Smarter AI
+• The computer's AI has been optimized to increase the likelihood of the AI winning.
+The computer will always discard the card with the lowest value in order to minimize its score.
+Also, the computer will always play the highest ranked legal card in order to reduce the likelihood
+of a higher ranking card being discarded in the future.
+• To test the feature, choose at least one computer player after hitting 'start' button , and observe the
+moves of the computer player. One can see the moves optimized for winning ,instead of the default part 1
+implementation of project where the computer plays/discards the first card in order.
+
+4.) Improved UX and UI
+• A notification alerting the player when they try to make an illegal move.
+• To test the feature, when there are green highlighted cards in the player's hand, click a
+non highlighted card (which would be an illegal move) and that would case the notification
+to appear.
